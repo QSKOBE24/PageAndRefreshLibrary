@@ -1,0 +1,135 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    
+   <!-- productearning 产品收益  --> 
+    <dimen name="productearning_title_heightsize">44dp</dimen>
+    <dimen name="productearning_item_heightsize">35dp</dimen>
+    <dimen name="productearning_title_fontsize">16dp</dimen>
+    <dimen name="productearning_itemgray_fontsize">14dp</dimen>
+    <dimen name="productearning_titlewhite_fontsize">14dp</dimen>
+    <dimen name="productearning_divideline_size">1dp</dimen>
+    
+    <dimen name="productearning_item_leftsize">95dp</dimen>
+    <dimen name="productearning_item_centersize">100dp</dimen>
+    <dimen name="productearning_item_rightsize">123dp</dimen>
+
+   <!-- allproductearning 累计收益  --> 
+    <dimen name="allearning_title_heightsize">44dp</dimen>
+    <dimen name="allearning_item_heightsize">35dp</dimen>
+    <dimen name="allearning_title_fontsize">16dp</dimen>
+    <dimen name="allearning_itemgray_fontsize">14dp</dimen>
+    <dimen name="allearning_titlewhite_fontsize">14dp</dimen>
+    <dimen name="allearning_divideline_size">1dp</dimen>
+    
+    <dimen name="allearning_item_leftsize">95dp</dimen>
+    <dimen name="allearning_item_centersize">123dp</dimen>
+    <dimen name="allearning_item_rightsize">100dp</dimen>
+
+    
+    <!-- deal flow 交易流水  --> 
+    <dimen name="dealflow_title_heightsize">44dp</dimen>
+    <dimen name="dealflow_item_heightsize">35dp</dimen>
+    <dimen name="dealflow_title_fontsize">16dp</dimen>
+    <dimen name="dealflow_itemgray_fontsize">14dp</dimen>
+    <dimen name="dealflow_titlewhite_fontsize">14dp</dimen>
+    <dimen name="dealflow_titlewhite_smallsize">10dp</dimen>
+    <dimen name="dealflow_divideline_size">1dp</dimen>
+    <dimen name="dealflow_item_leftsize">130dp</dimen>
+    <dimen name="dealflow_item_centersize">90dp</dimen>
+    <dimen name="dealflow_item_rightsize">99dp</dimen>
+    
+    
+      <!-- cancel deposit 交易流水  --> 
+    <dimen name="canceldeposit_title_heightsize">44dp</dimen>
+    <dimen name="canceldeposit_item_heightsize">35dp</dimen>
+    <dimen name="canceldeposit_title_fontsize">16dp</dimen>
+    <dimen name="canceldeposit_itemgray_fontsize">14dp</dimen>
+    <dimen name="canceldeposit_titlewhite_fontsize">14dp</dimen>
+    <dimen name="canceldeposit_titlewhite_smallsize">10dp</dimen>
+    <dimen name="canceldeposit_divideline_size">1dp</dimen>
+    <dimen name="canceldeposit_item_leftsize">90dp</dimen>
+    <dimen name="canceldeposit_item_center1size">90dp</dimen>
+    <dimen name="canceldeposit_item_center2size">60dp</dimen>
+    <dimen name="canceldeposit_item_rightsize">80dp</dimen>
+    <dimen name="canceldeposit_item_btheight">21dp</dimen>
+    <dimen name="canceldeposit_item_btwidth">55dp</dimen>
+    <dimen name="canceldeposit_item_btfont">12dp</dimen>
+    
+    
+    <!-- 存入薪金宝   --> 
+    <dimen name="activity_deposit_spaceheight">15dp</dimen>
+    <dimen name="activity_deposit_item_height">44dp</dimen>
+    <dimen name="activity_deposit_divideline_size">1dp</dimen>
+    <dimen name="activity_deposit_betweenitemandbutton">34dp</dimen>
+    <dimen name="activity_deposit_buttonheight">35dp</dimen>
+    <dimen name="activity_deposit_buttonwidth">290dp</dimen>
+    <dimen name="activity_deposit_buttonmargin">15dp</dimen>
+    <dimen name="activity_deposit_item_fontsize">16dp</dimen>
+    <dimen name="activity_deposit_protol_fontsize">14dp</dimen>
+    <dimen name="activity_deposit_button_fontsize">16dp</dimen>
+    
+    <!-- 存入成功   --> 
+    <dimen name="activity_depositsuccess_firstmargin">140dp</dimen>
+    
+    <dimen name="activity_depositsuccess_betweentitleandimage">30dp</dimen>
+    <dimen name="activity_depositsuccess_betweentextandbutton">25dp</dimen>
+   
+    <dimen name="activity_depositsuccess_buttonheight">35dp</dimen>
+    <dimen name="activity_depositsuccess_buttonwidth">290dp</dimen>
+    <dimen name="activity_depositsuccess_buttonmargin">15dp</dimen>
+    
+    <dimen name="activity_depositsuccess_protol_fontsize">14dp</dimen>
+    <dimen name="activity_depositsuccess_button_fontsize">16dp</dimen>
+    
+    <!-- 存入失败  --> 
+    <dimen name="activity_depositfail_firstmargin">140dp</dimen>
+    <dimen name="activity_depositfail_betweentitleandimage">30dp</dimen>
+    <dimen name="activity_depositfail_betweentextandbutton">30dp</dimen>
+    <dimen name="activity_depositfail_buttonheight">35dp</dimen>
+    <dimen name="activity_depositfail_buttonwidth">290dp</dimen>
+    <dimen name="activity_depositfail_buttonmargin">15dp</dimen>
+    <dimen name="activity_depositfail_protol_fontsize">14dp</dimen>
+    <dimen name="activity_depositfail_button_fontsize">16dp</dimen>
+    
+    
+      <!-- 薪金宝取出   --> 
+    <dimen name="activity_withdraw_betweentitleandimage">30dp</dimen>
+    <dimen name="activity_withdraw_spaceheight">15dp</dimen>
+    <dimen name="activity_withdraw_item_height">44dp</dimen>
+    <dimen name="activity_withdraw_divideline_size">1dp</dimen>
+    <dimen name="activity_withdraw_betweenitemandbutton">13dp</dimen>
+   
+    <dimen name="activity_withdraw_buttonheight">35dp</dimen>
+    <dimen name="activity_withdraw_buttonwidth">290dp</dimen>
+    <dimen name="activity_withdraw_buttonmargin">15dp</dimen>
+    
+    <dimen name="activity_withdraw_choosemethod_fontsize">13dp</dimen>
+    <dimen name="activity_withdraw_item_fontsize">16dp</dimen>
+    <dimen name="activity_withdraw_itemsmall_fontsize">12dp</dimen>
+    <dimen name="activity_withdraw_button_fontsize">16dp</dimen>
+    
+    <!-- 薪金宝取出成功   --> 
+    <dimen name="activity_withdrawsuccess_firstmargin">140dp</dimen>
+    <dimen name="activity_withdrawsuccess_betweentitleandimage">30dp</dimen>
+    <dimen name="activity_withdrawsuccess_betweentextandbutton">30dp</dimen>
+    <dimen name="activity_withdrawsuccess_buttonheight">35dp</dimen>
+    <dimen name="activity_withdrawsuccess_buttonwidth">290dp</dimen>
+    <dimen name="activity_withdrawsuccess_buttonmargin">15dp</dimen>
+    <dimen name="activity_withdrawsuccess_protol_fontsize">14dp</dimen>
+    <dimen name="activity_withdrawsuccess_button_fontsize">16dp</dimen>
+    
+    
+     <!-- 取出失败  --> 
+    <dimen name="activity_withdrawfail_firstmargin">140dp</dimen>
+    <dimen name="activity_withdrawfail_betweentitleandimage">30dp</dimen>
+    <dimen name="activity_withdrawfail_betweentextandbutton">30dp</dimen>
+    <dimen name="activity_withdrawfail_buttonheight">35dp</dimen>
+    <dimen name="activity_withdrawfail_buttonwidth">290dp</dimen>
+    <dimen name="activity_withdrawfail_buttonmargin">15dp</dimen>
+    <dimen name="activity_withdrawfail_button_fontsize">16dp</dimen>
+    
+</resources>

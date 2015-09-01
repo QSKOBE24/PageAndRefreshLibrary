@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_deposit_bg" >
+
+    <LinearLayout
+        android:id="@+id/acrivity_depositfail_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/acrivity_depositfail_ll1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_depositfail_firstmargin"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/activity_depositfail_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="@dimen/activity_depositfail_betweentitleandimage"
+                android:src="@drawable/wrong" >
+            </ImageView>
+
+            <RelativeLayout
+                android:id="@+id/acrivity_depositfail_ll2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal|center"
+                android:layout_marginTop="@dimen/activity_deposit_spaceheight" >
+
+                <TextView
+                    android:id="@+id/activity_depositfail_failtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/activity_depositfail_failtext"
+                    android:textSize="@dimen/activity_depositfail_protol_fontsize" >
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/activity_depositfail_failreason"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_toRightOf="@id/activity_depositfail_failtv"
+                    android:text=" 网络传输错误"
+                    android:textSize="@dimen/activity_depositfail_protol_fontsize" >
+
+                </TextView>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/acrivity_depositfail_ll3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <Button
+                android:id="@+id/activity_depositsuccess_button"
+                android:layout_width="@dimen/activity_depositsuccess_buttonwidth"
+                android:layout_height="@dimen/activity_depositsuccess_buttonheight"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_depositsuccess_buttonmargin"
+                android:layout_marginRight="@dimen/activity_depositsuccess_buttonmargin"
+                android:background="@color/activity_depositsuccess_button"
+                android:text="@string/activity_depositsuccess_confirm"
+                android:textColor="@color/activity_deposit_item_whitefont"
+                android:textSize="@dimen/activity_deposit_button_fontsize" >
+
+            </Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

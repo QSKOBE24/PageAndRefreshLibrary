@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_withdraw_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/acrivity_withdraw_ll0"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_withdraw_betweentitleandimage"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_withdraw_choosemothed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_deposit_buttonmargin"
+                android:text="@string/activity_withdraw_choosemothed"
+                android:textSize="@dimen/activity_withdraw_choosemethod_fontsize" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_deposit_divideline_size" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_withdraw_rl1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_deposit_item_height"
+            android:background="@color/activity_deposit_item_bg" >
+
+            <LinearLayout
+                android:id="@+id/activity_withdraw_ll2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/activity_withdraw_item_bg"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/activity_withdraw_quick_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                    android:text="@string/activity_withdraw_quickwithdraw"
+                    android:textSize="@dimen/activity_withdraw_item_fontsize" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/activity_deposit_withdraw_quick_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                    android:text="@string/activity_withdraw_quickwithdraw_detail"
+                    android:textSize="@dimen/activity_withdraw_itemsmall_fontsize" >
+                </TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/activity_withdraw_iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_withdraw_spaceheight"
+                android:src="@drawable/tick" >
+            </ImageView>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_withdraw_divideline_size" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/acrivity_withdraw_rl3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_withdraw_item_height"
+            android:background="@color/activity_withdraw_item_bg"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/acrivity_withdraw_ll4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/activity_withdraw_item_bg"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/activity_withdraw_common_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                    android:text="@string/activity_withdraw_commonwithdraw"
+                    android:textSize="@dimen/activity_withdraw_item_fontsize" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/activity_deposit_withdraw_common_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                    android:text="@string/activity_withdraw_commonwithdraw_detail"
+                    android:textSize="@dimen/activity_withdraw_itemsmall_fontsize" >
+                </TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/activity_withdraw_iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_withdraw_spaceheight"
+                android:src="@drawable/tick"
+                android:visibility="gone" >
+
+            </ImageView>
+        </RelativeLayout>
+
+        
+        <LinearLayout
+            android:id="@+id/acrivity_withdraw_ll5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_withdraw_item_height"
+            android:layout_marginTop="@dimen/activity_withdraw_spaceheight"
+            android:background="@color/activity_withdraw_item_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_withdraw_remainingaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                android:text="@string/activity_withdraw_remainingaccount"
+                android:textSize="@dimen/activity_withdraw_item_fontsize" >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/activity_withdraw_remainingaccount_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                android:text="34,000,000.00"
+                android:textSize="@dimen/activity_withdraw_item_fontsize" >
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_withdraw_divideline_size" >
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/acrivity_withdraw_rl6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_withdraw_item_height"
+           
+            android:background="@color/activity_withdraw_item_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_withdraw_withdrawall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                android:text="@string/activity_withdraw_withdrawall"
+                android:textSize="@dimen/activity_withdraw_item_fontsize" >
+
+            </TextView>
+
+            <com.qskobe24.mylistview.view.ToggleButton
+                android:layout_width="54dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_withdraw_buttonmargin"
+                toggle:borderWidth="0.5dp"
+                toggle:offBorderColor="#d2d2d2"
+                toggle:offColor="#ececec"
+                toggle:onColor="#00CD00"
+                toggle:spotColor="#ececec" >
+            </com.qskobe24.mylistview.view.ToggleButton>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_deposit_divideline_size" >
+        </LinearLayout>
+
+        
+
+        <LinearLayout
+            android:id="@+id/acrivity_withdraw_ll7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_withdraw_item_height"
+            android:background="@color/activity_withdraw_item_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_withdraw_moneytowithdraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                android:text="@string/activity_withdraw_moneytowithdraw"
+                android:textSize="@dimen/activity_withdraw_item_fontsize" >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/activity_withdraw_moneytowithdraw_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                android:text="0.00"
+                android:textSize="@dimen/activity_withdraw_item_fontsize" >
+
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/acrivity_withdraw_ll8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_withdraw_betweenitemandbutton" >
+
+            <Button
+                android:id="@+id/activity_withdraw_button"
+                android:layout_width="@dimen/activity_withdraw_buttonwidth"
+                android:layout_height="@dimen/activity_withdraw_buttonheight"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_withdraw_buttonmargin"
+                android:layout_marginRight="@dimen/activity_withdraw_buttonmargin"
+                android:background="@color/activity_withdraw_button"
+                android:text="@string/activity_withdraw_withdraw"
+                android:textColor="@color/activity_withdraw_item_whitefont"
+                android:textSize="@dimen/activity_withdraw_button_fontsize" >
+            </Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

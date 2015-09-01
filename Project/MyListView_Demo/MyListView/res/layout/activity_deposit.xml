@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_deposit_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/acrivity_deposit_ll1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_deposit_item_height"
+            android:layout_marginTop="@dimen/activity_deposit_spaceheight"
+            android:background="@color/activity_deposit_item_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_deposit_remainingaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_deposit_buttonmargin"
+                android:text="@string/activity_deposit_remainingaccount" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/activity_deposit_remainingaccount_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_deposit_buttonmargin"
+                android:text="34,000,000.00" >
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/acrivity_depositsuccess_rl2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_deposit_item_height"
+            android:layout_marginTop="@dimen/activity_deposit_spaceheight"
+            android:background="@color/activity_deposit_item_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_deposit_allin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_deposit_buttonmargin"
+                android:text="@string/activity_deposit_allin" >
+            </TextView>
+
+            <com.qskobe24.mylistview.view.ToggleButton
+                android:id="@+id/activity_deposit_togglebutton"
+                android:layout_width="54dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_deposit_buttonmargin"
+                toggle:borderWidth="0.5dp"
+                toggle:offBorderColor="#d2d2d2"
+                toggle:offColor="#ececec"
+                toggle:onColor="#00CD00"
+                toggle:spotColor="#ececec" >
+            </com.qskobe24.mylistview.view.ToggleButton>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_deposit_divideline_size" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/acrivity_deposit_ll3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_deposit_item_height"
+            android:background="@color/activity_deposit_item_bg"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/activity_deposit_depositmoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_deposit_buttonmargin"
+                android:text="@string/activity_deposit_depositmoney" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/activity_deposit_depositmoney_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_deposit_buttonmargin"
+                android:text="34,000,000.00" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/acrivity_deposit_ll4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_deposit_item_height"
+            android:background="@color/activity_deposit_bg"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/activity_deposit_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="@dimen/activity_deposit_buttonmargin"
+                android:background="@drawable/deposit_checkbox"
+                android:button="@null"
+                android:checked="true" >
+            </CheckBox>
+
+            <TextView
+                android:id="@+id/activity_deposit_readed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:text="@string/activity_deposit_readed"
+                android:textSize="@dimen/activity_deposit_protol_fontsize" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/activity_deposit_penghuaprotocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:text="@string/activity_deposit_penghuaprotocol"
+                android:textColor="@color/activity_deposit_item_bluefont" >
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/acrivity_deposit_ll5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/activity_depositsuccess_button"
+                android:layout_width="@dimen/activity_depositsuccess_buttonwidth"
+                android:layout_height="@dimen/activity_depositsuccess_buttonheight"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="@dimen/activity_deposit_buttonmargin"
+                android:layout_marginRight="@dimen/activity_deposit_buttonmargin"
+                android:background="@color/activity_deposit_button"
+                android:text="@string/activity_deposit_depossitaction"
+                android:textColor="@color/activity_deposit_item_whitefont"
+                android:textSize="@dimen/activity_deposit_button_fontsize" >
+            </Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

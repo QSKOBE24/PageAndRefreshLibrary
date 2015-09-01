@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name ="productearning_title_font">#000000</color>
+    <color name ="productearning_title_bg">#dcdcdc</color>
+    <color name ="productearning_item_bg">#f1f1f1</color>
+    <color name ="productearning_divideline_bg">#d2d2d2</color>
+    <color name ="productearning_odditem_bg">#ffffff</color>
+    <color name ="productearning_evenitem_bg">#f1f1f1</color>
+    
+    
+    <color name ="allearning_title_font">#000000</color>
+    <color name ="allearning_title_bg">#dcdcdc</color>
+    <color name ="allearning_item_bg">#f1f1f1</color>
+    <color name ="allearning_divideline_bg">#d2d2d2</color>
+    <color name ="allearning_odditem_bg">#ffffff</color>
+    <color name ="allearning_evenitem_bg">#f1f1f1</color>
+    
+    
+    <color name ="dealflow_title_font">#000000</color>
+    <color name ="dealflow_title_bg">#dcdcdc</color>
+    <color name ="dealflow_item_bg">#f1f1f1</color>
+    <color name ="dealflow_item_font">#666666</color>
+    <color name ="dealflow_divideline_bg">#d2d2d2</color>
+    <color name ="dealflow_odditem_bg">#ffffff</color>
+    <color name ="dealflow_evenitem_bg">#f1f1f1</color>
+    
+    <color name ="canceldeposit_title_font">#000000</color>
+    <color name ="canceldeposit_title_bg">#dcdcdc</color>
+    <color name ="canceldeposit_item_bg">#f1f1f1</color>
+    <color name ="canceldeposit_item_font">#666666</color>
+    <color name ="canceldeposit_divideline_bg">#d2d2d2</color>
+    <color name ="canceldeposit_bt_bg">#67aa15</color>
+    <color name ="canceldeposit_bt_font">#ffffff</color>
+    <color name ="canceldeposit_odditem_bg">#ffffff</color>
+    <color name ="canceldeposit_evenitem_bg">#f1f1f1</color>
+    
+    <!-- 存入颜色值 -->
+    <color name ="activity_deposit_bg">#ececec</color>
+    <color name ="activity_deposit_item_whitefont">#FFFFFF</color>
+    <color name ="activity_deposit_item_bg">#ffffff</color>
+    <color name ="activity_deposit_item_bluefont">#3b43f9</color>
+    <color name ="activity_deposit_divideline_bg">#d2d2d2</color>
+    <color name ="activity_deposit_button">#c20202</color>
+    <!-- 存入成功 -->
+    <color name ="activity_depositsuccess_bg">#ececec</color>
+    <color name ="activity_depositsuccess_item_redfont">#c20202</color>
+    <color name ="activity_depositsuccess_divideline_bg">#d2d2d2</color>
+    <color name ="activity_depositsuccess_button">#4890d3</color>
+     <!-- 存入失败 -->
+    <color name ="activity_depositfail_bg">#ececec</color>
+    <color name ="activity_depositfail_item_redfont">#c20202</color>
+    <color name ="activity_depositfail_divideline_bg">#d2d2d2</color>
+    <color name ="activity_depositfail_button">#4890d3</color>
+    
+     <!-- 取出颜色值 -->
+    <color name ="activity_withdraw_bg">#ececec</color>
+    <color name ="activity_withdraw_item_whitefont">#FFFFFF</color>
+    <color name ="activity_withdraw_item_bg">#ffffff</color>
+    <color name ="activity_withdraw_item_bluefont">#3b43f9</color>
+    <color name ="activity_withdraw_divideline_bg">#d2d2d2</color>
+    <color name ="activity_withdraw_button">#c20202</color>
+    
+      <!-- 取出成功 -->
+    <color name ="activity_withdrawsuccess_bg">#ececec</color>
+    <color name ="activity_withdrawsuccess_item_redfont">#c20202</color>
+    <color name ="activity_withdrawsuccess_divideline_bg">#d2d2d2</color>
+    <color name ="activity_withdrawsuccess_button">#4890d3</color>
+     <!-- 取出失败 -->
+    <color name ="activity_withdrawfail_bg">#ececec</color>
+    <color name ="activity_withdrawfail_item_redfont">#c20202</color>
+    <color name ="activity_withdrawfail_divideline_bg">#d2d2d2</color>
+    <color name ="activity_withdrawfail_button">#4890d3</color>
+    
+    
+    
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/canceldeposit_item_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/canceldeposit_item_heightsize"
+        android:background="@color/canceldeposit_item_bg"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="9"
+            android:orientation="vertical"
+            android:paddingLeft="5dp" >
+
+            <TextView
+                android:id="@+id/canceldeposit_item_lefttop_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:textColor="@color/canceldeposit_title_font"
+                android:textSize="@dimen/canceldeposit_itemgray_fontsize" />
+
+            <TextView
+                android:id="@+id/canceldeposit_item_leftbottom_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical|center_horizontal"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:textColor="@color/canceldeposit_item_font"
+                android:textSize="@dimen/canceldeposit_titlewhite_smallsize" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/canceldeposit_item_center_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:layout_weight="9"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:paddingRight="10dp"
+            android:textColor="@color/canceldeposit_title_font"
+            android:textSize="@dimen/canceldeposit_itemgray_fontsize" />
+
+        <TextView
+            android:id="@+id/canceldeposit_item_right_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:layout_weight="6"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:textColor="@color/canceldeposit_title_font"
+            android:textSize="@dimen/canceldeposit_itemgray_fontsize" />
+        
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="fill_parent"
+           android:layout_gravity="center_vertical|center_horizontal|center"
+           android:layout_weight="8"
+           android:gravity="center_vertical|center_horizontal|center" >
+
+             <Button
+                 android:id="@+id/canceldeposit_item_right_button"
+                 android:layout_width="55dp"
+                 android:layout_height="21dp"
+                 android:focusable="false"
+                 android:layout_gravity="center_vertical|center_horizontal|center"
+                 android:background="@drawable/roundcornor_bt"
+                 android:gravity="center_vertical|center_horizontal|center"
+                 android:text="取消存入"
+                 android:textColor="@color/canceldeposit_bt_font"
+                 android:textSize="@dimen/canceldeposit_item_btfont" />
+
+        </LinearLayout>
+      
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyListView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="productearning_title_left_string">日期</string>
+    <string name="productearning_title_center_string">万份收益(元)</string>
+    <string name="productearning_title_right_string">七日年化收益率</string>
+    
+    <string name="allearning_title_left_string">日期</string>
+    <string name="allearning_title_center_string">资产总额(元)</string>
+    <string name="allearning_title_right_string">每日收益(元)</string>
+
+    <string name="dealflow_title_left_string">交易类型</string>
+    <string name="dealflow_title_center_string">金额(元)</string>
+    <string name="dealflow_title_right_string">状态</string>
+   
+    <string name="canceldeposit_title_left_string">交易类型</string>
+    <string name="canceldeposit_title_center_string">金额(元)</string>
+    <string name="canceldeposit_title_right_string">状态</string>
+    
+    
+    <string name="activity_deposit_remainingaccount">可用余额</string>
+    <string name="activity_deposit_allin">全部存入</string>
+    <string name="activity_deposit_depositmoney">存入金额</string>
+    <string name="activity_deposit_readed">已阅读</string>
+    <string name="activity_deposit_penghuaprotocol">&lt;&lt;鹏华基金存入协议&gt;&gt;</string>
+    <string name="activity_deposit_depossitaction">存&#160;入</string>
+    
+    
+    <string name="activity_depositsuccess_depositmoney">存入金额</string>
+    <string name="activity_depositsuccess_dayofincome">开始收益日&#058;</string>
+    <string name="activity_depositsuccess_confirm">确&#160;认</string>
+    <string name="activity_depositfail_failtext">存入失败</string>
+    <string name="activity_depositfail_failreason">失败原因</string>
+    <string name="activity_depositfail_confirm">确&#160;认</string>
+    
+    
+    
+    <string name="activity_withdraw_choosemothed">选择取出方式</string>
+    <string name="activity_withdraw_quickwithdraw">快速取出</string>
+    <string name="activity_withdraw_quickwithdraw_detail">当日可用 当日可转</string>
+    <string name="activity_withdraw_commonwithdraw">普通取出</string>
+    <string name="activity_withdraw_commonwithdraw_detail">当日可用，T+1可转，当日有收益</string>
+    <string name="activity_withdraw_remainingaccount">可取金额</string>
+    <string name="activity_withdraw_remainingaccount_detail">34,000,000,00</string>
+    <string name="activity_withdraw_withdrawall">全部取出</string>
+    <string name="activity_withdraw_moneytowithdraw">取出金额</string>
+    <string name="activity_withdraw_moneytowithdraw_detail">0.00</string>
+    <string name="activity_withdraw_withdraw">取&#160;出</string>
+    
+    <string name="activity_withdrawsuccess_success">已回到您的资金账户</string>
+    <string name="activity_withdrawsuccess_confirm">确&#160;认</string>
+    <string name="activity_withdrawfail_failtext">取出失败</string>
+    <string name="activity_withdrawfail_confirm">确&#160;认</string>
+    
+    <string name="head">这里是HeadView</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+    
+    <string name="retry">重试</string>
+    <string name="check_network">网络连接失败</string>
+    
+    
+    
+    
+</resources>
