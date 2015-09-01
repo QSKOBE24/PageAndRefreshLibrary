@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/actionToggleValues"
+        android:title="Toggle Values">
+    </item>
+    <item
+        android:id="@+id/actionToggleFilled"
+        android:title="Toggle Filled">
+    </item>
+    <item
+        android:id="@+id/actionToggleCircles"
+        android:title="Toggle Circles">
+    </item>
+        <item
+        android:id="@+id/actionToggleCubic"
+        android:title="Toggle Cubic">
+    </item>
+    <item
+        android:id="@+id/actionToggleHighlight"
+        android:title="Toggle Highlight">
+    </item>
+    <item
+        android:id="@+id/actionToggleStartzero"
+        android:title="Toggle StartZero">
+    </item>
+    <item
+        android:id="@+id/animateX"
+        android:title="Animate X">
+    </item>
+        <item
+        android:id="@+id/animateY"
+        android:title="Animate Y">
+    </item>
+            <item
+        android:id="@+id/animateXY"
+        android:title="Animate XY">
+    </item>
+    <item
+        android:id="@+id/actionToggleAdjustXLegend"
+        android:title="Toggle AdjustXLegend">
+    </item>
+    <item
+        android:id="@+id/actionToggleFilter"
+        android:title="Toggle filter">
+    </item>
+    <item
+        android:id="@+id/actionSave"
+        android:title="Save to SD-Card">
+    </item>
+    <item
+        android:id="@+id/actionTogglePinch"
+        android:title="Toggle PinchZoom">
+    </item>
+    <item
+        android:id="@+id/actionToggleAutoScaleMinMax"
+        android:title="Toggle auto scale min/max">
+        
+        
+        <item
+        android:id="@+id/pieactionToggleValues"
+        android:title="Toggle Pie  Y-Values">
+    </item>
+    <item
+        android:id="@+id/pieactionToggleXVals"
+        android:title="Toggle Pie X-Values">
+    </item>
+    <item
+        android:id="@+id/pieactionTogglePercent"
+        android:title="Toggle Pie Percent">
+    </item>
+    <item
+        android:id="@+id/pieactionToggleHole"
+        android:title="Toggle Pie Hole">
+    </item>
+    <item
+        android:id="@+id/pieanimateX"
+        android:title="Animate Pie X">
+    </item>
+    <item
+        android:id="@+id/pieanimateY"
+        android:title="Animate Pie Y">
+    </item>
+        <item
+        android:id="@+id/pieanimateXY"
+        android:title="Animate Pie XY">
+    </item>
+    <item
+        android:id="@+id/pieactionDrawCenter"
+        android:title="Draw Pie CenterText">
+    </item>
+    <item
+        android:id="@+id/pieactionSave"
+        android:title="Save to Pie Gallery">
+    </item>
+        
+    </item>
+</menu>
